@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/css3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,800&display=swap" >
+    <title>html css javascript</title>
+</head>
+<body>
+    <!-- start settings box -->
+    <div class="settings-box open">
+        <div class="toggle-settings">
+            <i class="fa fa-gear "></i>
+        </div>
+        
+        
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color=" #FF9800"></li>
+                    <li data-color="rgb(245, 60, 60)"></li>
+                    <li data-color="rgb(17, 235, 224)"></li>
+                    <li data-color="rgba(147, 48, 240, 0.616)"></li>
+                    <li data-color="rgb(9, 255, 0)"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>random backgrounds</h4>
+                <div class="random-backgrounds">
+                    <span class="yes active" data-background="yes">yes</span>
+                    <span class="no" data-background="no">no</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>show bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">yes</span>
+                    <span class="no" data-display="hide">no</span>
+                </div>
+            </div>
+            <button class="reset-options">reset options</button>
+        </div>
+    </div>
+
+    <!-- end settings box -->
+
+
+    <!-- start nav bullets -->
+        <div class="nav-bullets">
+            <div class="bullets" data-section=".about-us">
+                <div class="toolTip">About Us</div>
+            </div>
+            <div class="bullets" data-section=".skills">
+                <div class="toolTip">our skills</div>
+            </div>
+            <div class="bullets" data-section=".gellary">
+                <div class="toolTip">Our Gellary</div>
+            </div>
+            <div class="bullets" data-section=".timeLine">
+                <div class="toolTip">timeLine</div>
+            </div>
+            <div class="bullets" data-section=".features">
+                <div class="toolTip">features</div>
+            </div>
+            <div class="bullets" data-section=".testimonials">
+                <div class="toolTip">testimonials</div>
+            </div>
+        </div>
+    <!-- start nav bullets -->
+    
+    <!-- start landing page -->
+        <div class="landing-page">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="header-area">
+                    <div class="logo"> special design </div>
+                    <div class="links-container">
+                        <ul class="links open menu-active" >
+                            <li><a href="#" class="active" data-section=".about-us">about</a></li>
+                            <li><a href="#" data-section=".skills">skills</a></li>
+                            <li><a href="#" data-section=".gellary">gellary</a></li>
+                            <li><a href="#" data-section=".timeLine">timeLine</a></li>
+                            <li><a href="#" data-section=".features">features</a></li>
+                            <li><a href="#" data-section=".testimonials">testimonials</a></li>
+                        </ul>
+                        <button class="toggle-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="introduction-text">
+                <h1> we are <span>creative</span> agency </h1>
+                <p>Web developer specializing in front end development experienced with all stages of
+                    the development cycle for dynamic web projects. using  creative designes and thoughts</p>
+            </div>
+        </div>
+    <!-- end landing page -->
+
+
+    <!-- start about us -->
+       <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p> I am Abdalla Mahmoud Alkhodairy, web designer from Egypt, sohag. but now I live in cairo . I have rich experience in web site design and building and customization, also I am good at wordpress. I love to talk with you about our unique. </p>
+            </div>
+            <div class="image-box">
+                <img src="illustrations/undraw_programming_re_kg9v.svg" alt="" width="300px" height="400px">
+            </div>
+        </div>
+       </div>
+    <!-- end about us -->
+
+    <!-- start our skills -->
+       <div class="skills">
+           <div class="container">
+               <h2>Our Skills</h2>
+               <div class="skill-box">
+                   <div class="skill-name">HTML</div>
+                   <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                   </div>
+               </div>
+               <div class="skill-box">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-progress">
+                        <span data-progress="80%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Javascript</div>
+                    <div class="skill-progress">
+                        <span data-progress="75%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Bootstrap</div>
+                    <div class="skill-progress">
+                        <span data-progress="60%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">React js</div>
+                    <div class="skill-progress">
+                        <span data-progress="55%"></span>
+                    </div>
+                </div>
+           </div>
+       </div>
+    <!-- end our skills -->
+
+    <!-- start gellary -->
+    <div class="gellary">
+        <div class="container">
+            <h2>Our Gellary</h2>
+            <div class="images-box">
+                <img src="pictures/books.jpg" alt="image one" width="200px" height="200px" >
+                <img src="pictures/codes.png" alt="image two" width="200px" height="200px">
+                <img src="pictures/girl.jpg" alt="image three" width="200px" height="200px">
+                <img src="illustrations/undraw_programming_re_kg9v.svg" alt="" width="200px" height="200px" >
+                <img src="pictures/pexels-markus-spiske-360591.jpg" alt="image five" width="200px" height="200px">
+                <img src="pictures/pexels-pixabay-414974.jpg" alt="" width="200px" height="200px">
+                <img src="pictures/student.jpg" alt="" width="200px" height="200px">
+                <img src="pictures/istockphoto-1156043588-612x612.jpg" alt="image eight" width="200px" height="200px">
+                <img src="pictures/charles-deluvio-Lks7vei-eAg-unsplash.jpg" alt="image four" width="200px" height="200px">
+                <img src="pictures/workplace.jpg" alt="" width="200px" height="200px">
+            </div>
+        </div>
+    </div>
+    <!-- end gellary -->
+
+
+    <!-- start timeline -->
+    <div class="timeLine">
+        <div class="container">
+            <div class="timeLine-Content">
+
+                <div class="year">2022</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Web Development</h3>
+                        <p>Modern and mobile-ready website that will help you reach all of your marketing.</p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Music Writing</h3>
+                        <p> Music copying, writing, creating, transcription, arranging and composition services. </p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Advetising</h3>
+                        <p> Advertising services include television, radio, print, mail, and web apps. </p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Game Development</h3>
+                    
+                        <p>Create complex enterprise software, ensure reliable software integration, modernise your legacy system.</p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end timeline -->
+
+
+    <!-- start features -->
+        <div class="features">
+            <h2>our features</h2>
+            <div class="container">
+                <div class="feat-box">
+                    <img src="pictures/9.png" alt="" >
+                    <h4>Quick Learner</h4>
+                    <p>We carry more than just good coding skills. Our experience makes us stand out from other web development.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="pictures/7.png" alt="" >
+                    <h4>Teamwork</h4>
+                    <p> Developing memorable and unique mobile android, ios and video games. </p>
+                </div>
+                <div class="feat-box">
+                    <img src="pictures/3.png" alt="" >
+                    <h4>Flexible</h4>
+                    <p>Build the product you need on time with an experienced team that uses a clear and effective design process.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="pictures/4.png" alt="" >
+                    <h4>Special Design</h4>
+                    <p>Turn to our experts to perform comprehensive, multi-stage testing and auditing of your software.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="pictures/6.png" alt="" >
+                    <h4>Creative</h4>
+                    <p>Trust our top minds to eliminate workflow pain points, implement new tech, and consolidate app portfolios.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="pictures/5.png" alt="" >
+                    <h4>Accuracy</h4>
+                    <p>Over the past decade, our customers succeeded by leveraging Intellectsoft's process of building, motivating.</p>
+                </div>
+                <div class="clearFix"></div>
+            </div>
+        </div>
+    <!-- end features -->
+    <!-- start testimonials -->
+        <div class="testimonials">
+            <div class="container">
+                <h2>testimonials</h2>
+                <div class="ts-box">
+                    <p>I'm very happy to announce that I take this certificate from udemy by instructor YouAccel Trainning. </p>
+                    <div class="person-info">
+                        <a href="https://www.udemy.com/certificate/UC-56d8cca3-a6a6-4a0a-817b-7af17064dfa1/" target="_blank" alt="">
+                            <img src="pictures/Udemy_400x400.png">
+                        </a>
+                        <h4>Learn Javascript</h4>
+                        <p>from Udemy</p>
+                    </div>
+                </div>
+                
+                <div class="ts-box">
+                    <p>I'm very happy to announce that I take this certificate from Mahara-Tech(iti) by instructor doaa fadaly. </p>
+                    <div class="person-info">
+                        <a href="https://maharatech.gov.eg/mod/customcert/view.php?id=9542" target="_blank" alt="">
+                            <img src="pictures/download.png">
+                        </a>
+                        <h4>UX Design Fundamentals</h4>
+                        <p>from Mahara-Tech(iti)</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>I'm very happy to announce that I take this certificate from udemy by instructor hassan fulaih. </p>
+                    <div class="person-info">
+                        <a href="https://www.udemy.com/certificate/UC-1d06d35f-b435-4771-8220-38ee8d6f2704/" target="_blank" alt="">
+                            <img src="pictures/Udemy_400x400.png">
+                        </a>
+                        <h4>The Web Front End Learning Guide</h4>
+                        <p>from Udemy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearFix"></div>
+        </div>
+
+    <!-- end testimonials -->
+
+    <!-- start contact us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>contact us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="your name" name="username">
+                    <input type="number" placeholder="your phone" name="phone" >
+                    <input type="email" placeholder="your email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="your message"></textarea>
+                    <input type="submit" value="contact">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end contact us -->
+    <!-- start footer -->
+    <div class="footer"> Copyright &copy; 2022 created by Abdalla Mahmoud</div>
+    <!-- end footer -->
+<script src="javascript.js"></script>
+</body>
+</html>
