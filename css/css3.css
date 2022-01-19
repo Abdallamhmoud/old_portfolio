@@ -21,6 +21,11 @@ body{
     padding-right: 15px;
     margin: auto;
 }
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
 
 /* start settings box */
     .settings-box{
